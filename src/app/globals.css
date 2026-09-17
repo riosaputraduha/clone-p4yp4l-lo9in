@@ -128,3 +128,15 @@
     @apply font-sans;
   }
 }
+
+/* PayPal Custom Utilities */
+.paypal-logo {
+    display: inline-block;
+    background: url('https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg') no-repeat center center;
+    background-size: contain;
+    width: 129px;
+    height: 32px;
+}
+.signin-paypal-logo {
+    filter: brightness(0); /* Make it black to match the screenshot */
+}
